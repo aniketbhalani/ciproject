@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="css/resetpass.css">
+    <title>Reset Password</title>
 </head>
 
 <body>
@@ -110,34 +110,30 @@
 
             </div>
             <div class="col-lg-4 align-self-center">
-                <form id="">
-                    <div class="mb-2">
-                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="exampleFormControlInput1"
-                            placeholder="name@example.com">
+                <form id="ab">
+                    <span class="frp"><b>New password</b></span>
+                    <div class="frpp">
+                        <span>Please enter a new password in the fields below.</span>
                     </div>
-                    <div class="mb-2">
-                        <label for="exampleInputPassword1" class="form-label">New Password</label>
-                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="**********">
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label"> New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
-
-                    <button type="submit" class="btn btn-outline-warning" id="btn">Log in</button>
-
-
-                    <div class="belowcontent">
-                        <span align-text-center>Lost your password?</span>
-                        <span class="pro">Don’t have an account? <a href="#">Create an account</a></span>
-                        <span class="prp" style="padding-top: 9%;">Privacy Policy</span>
+                    <div class="mb-3">
+                        <label for="exampleInputPassword1" class="form-label">Confirm New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
                     </div>
 
+                    <button type="submit" class="btn btn-outline-warning" id="btn">Change Password</button>
+                    <span class="l">Log in</span>
+                    <span class="m">Privacy Policy</span>
 
-                </form>
             </div>
+            </form>
 
         </div>
     </div>
-
-
+    </div>
 </body>
 
 </html>

@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/login.css">
-    <title>Login</title>
+    <link rel="stylesheet" href="css/registration.css">
+    <title>Registartion</title>
 </head>
 
 <body>
@@ -109,8 +109,22 @@
                 </div>
 
             </div>
-            <div class="col-lg-4 align-self-center">
-                <form id="">
+            <div class="col-lg-4 align-self-center" id="sa">
+
+                <form id="ab">
+                    <div class="mb-2">
+                        <label for="exampleFormControlInput1" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="even">
+                    </div>
+                    <div class="mb-2">
+                        <label for="exampleFormControlInput1" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="donohue">
+                    </div>
+                    <div class="mb-2">
+                        <label for="exampleFormControlInput1" class="form-label">Phone Number</label>
+                        <input type="number" class="form-control" id="exampleFormControlInput1"
+                            placeholder="8923454615">
+                    </div>
                     <div class="mb-2">
                         <label for="exampleFormControlInput1" class="form-label">Email address</label>
                         <input type="email" class="form-control" id="exampleFormControlInput1"
@@ -120,23 +134,26 @@
                         <label for="exampleInputPassword1" class="form-label">New Password</label>
                         <input type="password" class="form-control" id="exampleInputPassword1" placeholder="**********">
                     </div>
-
-                    <button type="submit" class="btn btn-outline-warning" id="btn">Log in</button>
-
-
-                    <div class="belowcontent">
-                        <span align-text-center>Lost your password?</span>
-                        <span class="pro">Don’t have an account? <a href="#">Create an account</a></span>
-                        <span class="prp" style="padding-top: 9%;">Privacy Policy</span>
+                    <div class="mb-2">
+                        <label for="exampleInputPassword1" class="form-label">Confirm New Password</label>
+                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="**********">
                     </div>
+                    <div>
+                        <button type="submit" class="btn btn-outline-warning"
+                            style=" width: 100%; border-radius: 24px; margin:  3% 0%;" id="btn">Register</button>
+                    </div>
+                    <div class="ft">
+                        <span align-text-center>Lost your password?</span>
+                        <div><span>Already registered? </span><a class="l">Login Now</a></div>
+                        <div><span class="m">Privacy Policy</span></div>
 
-
+                    </div>
                 </form>
-            </div>
 
+
+            </div>
         </div>
     </div>
-
 
 </body>
 
